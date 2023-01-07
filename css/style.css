@@ -102,7 +102,6 @@
 }
 /* linear section */
 .my-clock{
-  background: url(../images/watch.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -110,7 +109,7 @@
   height: 300px;
   margin: 0 auto;
   margin-bottom: 130px;
-  /* background: linear-gradient(#f15b22 100% ),(#F15B22 0%); */
+  background-image: linear-gradient(to left,rgba(245, 246, 252, 0),rgba(9, 19, 93, 0.87)), url(images/gradient1);
 }
 .hand-watch{
   display: flex;
