@@ -133,6 +133,32 @@
   border-radius: 3px;
   color: #F15B22;
 }
+/* table style */
+caption{
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+table{
+  width:80%;
+  border-collapse: collapse;
+  margin-left: 10%;
+  margin-bottom: 100px;
+}
+table th{
+  background: green;
+  color:#fff;
+  padding: 10px;
+  border: 1px solid #000;
+}
+table td{
+  text-align: center;
+  border: 1px solid #000
+}
+.style-iframe{
+  width: 40%;
+  height: 500px;
+  margin-bottom: 30px;
+}
 .future {
   display: flex;
   background-color: #151414;
